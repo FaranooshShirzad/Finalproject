@@ -1,0 +1,516 @@
+body {
+  margin: 0;
+  font-family: "Ruda", sans-serif;
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(39, 39, 39, 0.1) 0.01%,
+    rgba(0, 0, 0, 0.13) 13.02%,
+    #000 100%
+  );
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+  background-image: url("");
+  box-sizing: border-box;
+}
+.box1 {
+  display: flex;
+  background: #000;
+  justify-content: space-between;
+  color: #fff;
+  text-align: center;
+  font-family: Ruda;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+
+  padding-left: 2em;
+}
+.title {
+  font-weight: 400;
+  margin: 1vw;
+  font-family: Ruda;
+  font-size: 2vw;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 1px 1px 1px #f2c94c;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  background-color: white;
+  color: #000;
+  border: 1px solid white;
+  padding: 1.4vw;
+  box-shadow: 0 0 2px 2px #f2c94c;
+}
+.box2 {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  flex-direction: column;
+  text-align: center;
+  font-family: Ruda;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 400;
+
+  box-sizing: border-box;
+  background-image: url("./wood-2045380_1920\ 1.png");
+  width: 100vw;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1 {
+  width: 100vw;
+  height: auto;
+}
+
+h1 {
+  border-bottom: 0.5vw solid #f2c94c;
+  padding-top: 5vw;
+}
+p {
+  width: 50vw;
+  text-align: center;
+}
+.container2 {
+  width: 100vw;
+
+  background-color: #000;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.box3 {
+  display: flex;
+
+  justify-content: center;
+  gap: 15vw;
+}
+
+h2 {
+  border-bottom: 0.6vw solid #f2c94c;
+  color: #fff;
+  font-family: " Quattrocento", sans-serif;
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.text {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+  display: inline;
+}
+.img2 {
+  width: 35vw;
+  padding-top: 8vw;
+}
+
+.subbox2 {
+  width: 35vw;
+}
+
+.container3 {
+  width: 100vw;
+  background-color: #000;
+  color: #fff;
+  margin-top: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 400;
+  border-bottom: 0.6vw solid #f2c94c;
+  width: 30vw;
+  margin: auto;
+}
+.findus {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vw;
+}
+.box4 {
+  display: flex;
+  padding: 6vw;
+  justify-content: space-around;
+  gap: 8vw;
+}
+.subbox4 {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 1.7vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 2.25px;
+  padding-top: 7vw;
+  width: 40wv;
+}
+.img3 {
+  width: 35vw;
+}
+.container4 {
+  width: 100vw;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding-bottom: 8vw;
+}
+h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 400;
+  border-bottom: 0.5vw solid #f2c94c;
+  width: 40vw;
+  margin: auto;
+  padding-top: 8vh;
+}
+.paragraph {
+  color: #fff;
+  text-align: center;
+  font-family: Ruda;
+  font-size: 1.6vw;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2.25px;
+  margin: auto;
+  padding: 2vh;
+}
+.pics {
+  width: 35vw;
+
+  border-radius: 5px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 85.42%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(<path-to-image>) lightgray 50% / cover no-repeat;
+  display: inline-block;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 74.48%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4vw;
+  gap: 5vw;
+}
+button {
+  color: #f2c94c;
+  text-align: center;
+  font-family: Ruda;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 700;
+  width: 12vw;
+  height: auto;
+  margin: auto;
+  background-color: #000;
+  border: 2px solid #f2c94c;
+  padding: 1.5vw;
+  display: block;
+  margin-top: 5vw;
+}
+.link1 {
+  text-decoration: none;
+  color: #f2c94c;
+}
+.container5 {
+  background-image: url("./wood-2045380_1920\ 1.png");
+  width: 100vw;
+
+  background-size: cover;
+}
+.box6 {
+  width: 100vw;
+
+  background-repeat: no-repeat;
+  box-shadow: 18px 11px 29px 0px rgba(0, 0, 0, 0.61);
+  background-size: cover;
+}
+.img5 {
+  width: 100vw;
+}
+h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 700;
+  border-bottom: 0.6vw solid #f2c94c;
+  width: 50vw;
+  margin: auto;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vw;
+  padding-bottom: 8vw;
+}
+.icon {
+  padding-left: 20px;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  font-family: Ruda;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.44px;
+  width: 100vw;
+  padding: 1.5vw;
+  box-sizing: border-box;
+}
+/* smart phones */
+@media only screen and (max-width: 768px) {
+  .link {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+  .box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    box-sizing: border-box;
+  }
+  .text {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: normal;
+    display: block;
+  }
+  p {
+    font-size: 12px;
+    width: 95%;
+    text-align: center;
+  }
+
+  .paragraph {
+    letter-spacing: 0.1px;
+    font-size: 12px;
+    width: 80%;
+  }
+  .img2 {
+    width: 60vw;
+  }
+  .img3 {
+    width: 70vw;
+  }
+
+  .box1 {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .title {
+    font-size: 4vw;
+    @media only screen and (max-width: 450px) {
+      font-size: 6vw;
+    }
+    padding-top: 2vw;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subbox4 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 6vw;
+    width: 40vw;
+    margin: auto;
+    padding-top: 5vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  h4 {
+    font-size: 6vw;
+    padding-top: 0;
+  }
+  .findus {
+    padding-top: 3vw;
+  }
+  h5 {
+    font-size: 7vw;
+    width: 70vw;
+  }
+  .pics {
+    width: 70vw;
+  }
+  .box5 {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    font-size: 9px;
+  }
+  button {
+    width: 20vw;
+    font-size: 13px;
+  }
+  .link1 {
+    font-size: 10px;
+  }
+  .subbox2 {
+    width: 80vw;
+  }
+  #icone1 {
+    width: 16vw;
+  }
+  #icone2 {
+    width: 11vw;
+    padding-left: 4vw;
+  }
+  #icone3 {
+    width: 11vw;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  ul {
+    flex-wrap: wrap;
+    padding-right: 3vw;
+    padding-right: 12vw;
+  }
+  button {
+    font-size: 6vw;
+  }
+  .title {
+    font-size: 8vw;
+    text-align: center;
+    padding-right: 10vw;
+  }
+  h1 {
+    font-size: 10vw;
+  }
+  .link {
+    font-size: 7vw;
+  }
+}
+/* iPads (portrait and landscape)  */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+  }
+  .link {
+    font-size: 15px;
+  }
+  .text {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: normal;
+  }
+  .findus {
+    padding-top: 5vw;
+  }
+  p {
+    font-size: 15px;
+    width: 80%;
+  }
+  .paragraph {
+    letter-spacing: normal;
+    font-size: 15px;
+  }
+  .subbox4 {
+    letter-spacing: normal;
+    font-size: 2vw;
+    padding-top: 0;
+  }
+  .box1 {
+    font-size: 2vw;
+  }
+  .title {
+    font-size: 3vw;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  .subbox2 {
+    width: 70vw;
+  }
+  h2 {
+    width: 40vw;
+    margin: auto;
+    padding-top: 5vw;
+  }
+  .link1 {
+    font-size: 20px;
+  }
+  h4 {
+    padding-top: 0%;
+  }
+}
