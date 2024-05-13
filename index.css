@@ -30,8 +30,6 @@ body {
   font-size: 1.2vw;
   font-style: normal;
   font-weight: 400;
-
-  padding-left: 2em;
 }
 .title {
   font-weight: 400;
@@ -49,7 +47,7 @@ ul {
 }
 ul li {
   list-style: none;
-  margin-right: 40px;
+  margin-right: 4vw;
 }
 .link {
   text-decoration: none;
@@ -76,7 +74,7 @@ ul li {
   font-weight: 400;
 
   box-sizing: border-box;
-  background-image: url("./wood-2045380_1920\ 1.png");
+  background-image: url("./images/wood-2045380_1920\ 1.png");
   width: 100vw;
 
   background-repeat: no-repeat;
@@ -260,7 +258,7 @@ button {
   color: #f2c94c;
 }
 .container5 {
-  background-image: url("./wood-2045380_1920\ 1.png");
+  background-image: url("./images/wood-2045380_1920\ 1.png");
   width: 100vw;
 
   background-size: cover;
@@ -438,8 +436,16 @@ footer {
 @media only screen and (max-width: 260px) {
   ul {
     flex-wrap: wrap;
-    padding-right: 3vw;
     padding-right: 12vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 260px) {
+    ul {
+      padding-right: 20vw;
+    }
   }
   button {
     font-size: 6vw;
@@ -447,7 +453,6 @@ footer {
   .title {
     font-size: 8vw;
     text-align: center;
-    padding-right: 10vw;
   }
   h1 {
     font-size: 10vw;
